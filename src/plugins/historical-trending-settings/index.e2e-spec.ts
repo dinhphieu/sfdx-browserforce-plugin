@@ -1,10 +1,10 @@
 import assert from 'assert';
-import { Config, LinkedInSalesNavigatorSettings } from '.';
+import { Config, HistoricalTrendingSettings } from '.';
 
-describe(LinkedInSalesNavigatorSettings.name, function () {
-  let plugin: LinkedInSalesNavigatorSettings;
+describe(HistoricalTrendingSettings.name, function () {
+  let plugin: HistoricalTrendingSettings;
   before(() => {
-    plugin = new LinkedInSalesNavigatorSettings(global.bf);
+    plugin = new HistoricalTrendingSettings(global.bf);
   });
 
   const configEnabled: Config = {
